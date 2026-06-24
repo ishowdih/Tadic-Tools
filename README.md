@@ -13,6 +13,7 @@ Simple tools. No ads. No nonsense.
 - Text Reverser
 - Character Counter
 - ASCII Banner Generator
+- and more...
 
 ## Website
 https://tadicservicesofficial.netlify.app
