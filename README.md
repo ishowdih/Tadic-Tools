@@ -15,12 +15,6 @@ Simple tools. No ads. No nonsense.
 - ASCII Banner Generator
 - and more...
 
-## Website
-https://tadicservicesofficial.netlify.app
-
-## Discord
-https://discord.gg/mnhPfB3paB
-
 ## İtch.io
 https://eymorty.itch.io
 
