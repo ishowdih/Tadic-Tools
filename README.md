@@ -2,7 +2,7 @@
 
 > Simple tools. No ads. No nonsense.
 
-TadicTools/TadicTooös Reimagined is a terminal-based toolkit by Eymorty. The repository includes the original Windows version and a Linux port, bringing everyday utilities into one interactive menu.
+TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The repository includes the original Windows version and a Linux port, bringing everyday utilities into one interactive menu.
 
 ## Features
 
