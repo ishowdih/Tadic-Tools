@@ -68,4 +68,9 @@ See [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reim
 
 > QUICK NOTE FOR THE REPO (**READ THIS**): The requirements.txt, Linux_version.py and TadicTools-Reimagined.py is on the [folder reimagined_and_linux](https://github.com/ishowdih/Tadic-Tools/tree/main/reimagined_and_linux)
 
+
+> Note 2: The project (TadicTools-Reimagined itself and other TadicTools versions) are made by a human. The website is made by Codex.
+> The "NO AI WAS USED..." is for python scripts & other that are not in the website files.
+
+
 **NO AI WAS USED ON THIS PROJECT. EVERY LINE IS WROTEN BY A HUMAN.**
