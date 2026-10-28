@@ -21,7 +21,7 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 ## Downloads
 
 - Published builds are available from the GitHub repo.
-- The website is https://tadicservicesofficial.netlify.app .
+- The website is https://tadictools.pages.dev .
 - [`TadicTools-Reimagined.py`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/TadicTools-Reimagined.py) is the Windows source.
 - [`Linux_version.py`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/Linux_version.py) is the Linux source.
 - Follow [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/BUILD_APPIMAGE.md) to package the Linux port as `tadictools.AppImage`. An AppImage binary is not included yet.
@@ -64,6 +64,6 @@ See [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reim
 
 - [GitHub repository](https://github.com/ishowdih/Tadic-Tools)
 - [Itch.io](https://eymorty.itch.io)
-- [Tadic Services website](https://tadicservicesofficial.netlify.app)
+- [Tadic Tools Website](https://tadictools.pages.dev)
 
 > QUICK NOTE FOR THE REPO (**READ THIS**): The requirements.txt, Linux_version.py and TadicTools-Reimagined.py is on the [folder reimagined_and_linux](https://github.com/ishowdih/Tadic-Tools/tree/main/reimagined_and_linux)
