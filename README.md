@@ -67,3 +67,5 @@ See [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reim
 - [Tadic Tools Website](https://tadictools.pages.dev)
 
 > QUICK NOTE FOR THE REPO (**READ THIS**): The requirements.txt, Linux_version.py and TadicTools-Reimagined.py is on the [folder reimagined_and_linux](https://github.com/ishowdih/Tadic-Tools/tree/main/reimagined_and_linux)
+
+**NO AI WAS USED ON THIS PROJECT. EVERY LINE IS WROTEN BY A HUMAN.**
