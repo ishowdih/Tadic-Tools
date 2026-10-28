@@ -4,6 +4,9 @@
 
 TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The repository includes the original Windows version and a Linux port, bringing everyday utilities into one interactive menu.
 
+<img width="883" height="603" alt="image" src="https://github.com/user-attachments/assets/c13bdf79-5b52-47f3-b0ea-7edf0623aed2" />
+
+
 ## Features
 
 - ASCII clock (TTY-Clock on Linux) and countdown timer
