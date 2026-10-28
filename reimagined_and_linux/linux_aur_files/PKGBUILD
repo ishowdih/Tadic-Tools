@@ -1,0 +1,14 @@
+pkgname=tadictools
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="TadicTools - simple tools, no ads, no nonsense."
+arch=('any')
+url="https://github.com/ishowdih/Tadic-Tools"
+license=('MIT')
+depends=('python' 'python-pyfiglet' 'python-qrcode')
+source=("LinuxTRE.py::https://github.com/ishowdih/Tadic-Tools/tree/main/reimagined_and_linux/linux_aur_files/LinuxTRE.py")
+sha256sums=('SKIP')
+
+package() {
+    install -Dm755 "$srcdir/LinuxTRE.py" "$pkgdir/usr/bin/tadictools"
+}
