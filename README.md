@@ -21,6 +21,7 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 - ASCII banner generator and system information through Fastfetch
 - To-do list and optional command prompt mode
 
+
 ## Downloads
 
 - Published builds are available from the GitHub repo.
@@ -30,6 +31,7 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 - Follow [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/BUILD_APPIMAGE.md) to package the Linux port as `tadictools.AppImage`. An AppImage binary is not included yet.
 
 ## Run on Windows
+
 
 The Windows source imports `pyfiglet`, `qrcode`, `pywin32`, and the `clearer` and `boldy` helper modules. Install the Python packages and make sure the helper modules are available on Python's import path, then run:
 
@@ -53,10 +55,30 @@ python Linux_version.py
 
 The Linux version stores its generated files under `$XDG_DATA_HOME/tadictools`, or `~/.local/share/tadictools` when `XDG_DATA_HOME` is not set.
 
-## Build the Linux AppImage
+
+### Build the Linux AppImage
 
 See [`BUILD_APPIMAGE.md`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/BUILD_APPIMAGE.md) for the full PyInstaller and AppImageTool steps. The packaged executable bundles the Python runtime; TTY-Clock and Fastfetch remain optional system utilities.
 
+
+## Another Way to Run On Linux (Easiest Way)
+This guide is step-by-step and the easiest one, its literally only 3 commands, and you don't even need python. Just make sure your distro is either arch based or you use arch linux.
+- Step 1.
+  Download the package with the following commands:
+  ```
+  git clone https://github.com/ishowdih/Tadic-Tools
+  cd Tadic-Tools
+  makepgs -si
+  ```
+  with that commands, you will install TadicTools.
+- Step 2.
+  Run TadicTools:
+  ```
+  tadictools
+  ```
+  command `tadictools` runs TadicTools in your terminal, but don't forget that you need to be on Arch, not debian, not ubuntu, Arch.
+
+  
 ## Important notes
 
 - The file lock/unlock feature changes the selected file in place using a repeating XOR operation. This is **not secure encryption**. Keep a backup and do not use it to protect sensitive data.
