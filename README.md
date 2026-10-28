@@ -31,7 +31,7 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 The Windows source imports `pyfiglet`, `qrcode`, `pywin32`, and the `clearer` and `boldy` helper modules. Install the Python packages and make sure the helper modules are available on Python's import path, then run:
 
 ```CMD
-pip install -r requirement.txt
+pip install -r requirements.txt
 python TadicTools-Reimagined.py
 ```
 
