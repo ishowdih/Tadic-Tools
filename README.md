@@ -67,7 +67,7 @@ This guide is step-by-step and the easiest one, its literally only 3 commands, a
   Download the package with the following commands:
   ```
   git clone https://github.com/ishowdih/Tadic-Tools
-  cd Tadic-Tools
+  cd Tadic-Tools/reimagined_and_linux/linux_aur_files
   makepgs -si
   ```
   with that commands, you will install TadicTools.
@@ -98,4 +98,4 @@ This guide is step-by-step and the easiest one, its literally only 3 commands, a
 > The "NO AI WAS USED..." is for python scripts & other that are not in the website files.
 
 
-**NO AI WAS USED ON THIS PROJECT. EVERY LINE IS WROTEN BY A HUMAN.**
+**NO AI WAS USED ON THIS PROJECT. EVERY LINE IS WRITTEN BY A HUMAN.**
