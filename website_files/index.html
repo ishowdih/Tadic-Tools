@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="TadicTools — simple tools, no ads, no nonsense.">
+  <title>TadicTools — Tadic Services</title>
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+  <svg aria-hidden="true" class="icon-library" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a5 5 0 0 0-6.6 6.6L3.5 17.5a2.1 2.1 0 0 0 3 3l4.6-4.6a5 5 0 0 0 6.6-6.6l-3 3-3-3 3-3Z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 9h10a4 4 0 0 1 3.8 5.2l-.7 2.3a2 2 0 0 1-3.2 1l-2.1-1.7h-5.6l-2.1 1.7a2 2 0 0 1-3.2-1l-.7-2.3A4 4 0 0 1 7 9Z"/><path d="M8 11v4m-2-2h4m7-1h.01m2 2h.01"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.1 0l2-2A5 5 0 0 0 12 3.9l-1.1 1.1"/><path d="M14 11a5 5 0 0 0-7.1 0l-2 2A5 5 0 0 0 12 20.1l1.1-1.1"/></symbol>
+    <symbol id="i-qr" viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zm4 0h2v6h-2zm-4 4h2v2h-2z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 1 1 8 0v3m-4 5v2"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-13h-7z"/></symbol>
+    <symbol id="i-clean" viewBox="0 0 24 24"><path d="M4 7h16m-14 0 1 13h10l1-13M9 7V4h6v3m-4 4v5m3-5v5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M13 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V10z"/><path d="M13 3v7h7m-11 4h6m-6 4h6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+    <symbol id="i-text" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 5-7"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3m6 0h4"/></symbol>
+    <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 20h14"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Zm7 12 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></symbol>
+  </svg>
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="TadicTools Home"><img src="tadiclogo.png" alt=""><span>TadicTools</span></a>
+    <div class="top-actions"><span class="status-pill"><i></i> <span data-tr="Ücretsiz ve reklamsız" data-en="Free · No ads">Ücretsiz ve reklamsız</span></span><a class="github-button" href="https://github.com/ishowdih/Tadic-Tools" target="_blank" rel="noreferrer" aria-label="Open Tadic-Tools on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.72 1.15 1.72 1.15.99 1.7 2.59 1.21 3.22.93.1-.72.39-1.21.7-1.49-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.21 1.15-2.99-.11-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.22 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.29-2.62 5.23-5.12 5.51.4.35.75 1.03.75 2.08v3.08c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg><span>GitHub</span></a><button class="language-button" id="languageButton" type="button" aria-label="Change language">EN</button></div>
+  </header>
+  <main class="app-main" id="mainContent">
+    <section class="tab-panel active" id="panel-home" role="tabpanel" aria-labelledby="tab-home" tabindex="0">
+      <div class="hero">
+        <div class="hero-copy"><p class="eyebrow"><svg class="icon"><use href="#i-spark"/></svg><span data-tr="TADIC SERVICES'IN ARAÇ SETİ" data-en="THE TADIC SERVICES TOOLKIT">TADIC SERVICES'IN ARAÇ SETİ</span></p><h1><span data-tr="İşlerin için" data-en="Tools for">İşlerin için</span><br><span class="gradient-text" data-tr="küçük bir yardımcı." data-en="the little things.">küçük bir yardımcı.</span></h1><p class="hero-description" data-tr="Günlük dijital işlerini kolaylaştıran, tek yerde toplanmış kullanışlı araçlar." data-en="A thoughtfully collected set of handy tools for your everyday digital routine.">Günlük dijital işlerini kolaylaştıran, tek yerde toplanmış kullanışlı araçlar.</p><div class="hero-actions"><button class="primary-button" data-go="tools" type="button"><span data-tr="Araçları keşfet" data-en="Explore tools">Explore tools</span><svg class="icon"><use href="#i-chevron"/></svg></button><a class="secondary-button" href="code.html"><svg class="icon"><use href="#i-terminal"/></svg><span data-tr="Kaynak kodu gör" data-en="View source code">View source code</span></a></div></div>
+        <div class="hero-art" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="app-icon"><img src="tadiclogo.png" alt=""></div><div class="floating-icon clock-float"><svg class="icon"><use href="#i-clock"/></svg></div><div class="floating-icon bolt-float"><svg class="icon"><use href="#i-bolt"/></svg></div><div class="floating-icon qr-float"><svg class="icon"><use href="#i-qr"/></svg></div></div>
+      </div>
+      <div class="section-heading"><div><p class="eyebrow" data-tr="HIZLI ERİŞİM" data-en="QUICK ACCESS">HIZLI ERİŞİM</p><h2 data-tr="İhtiyacın olan her şey." data-en="A little bit of everything.">İhtiyacın olan her şey.</h2></div><button class="text-button" data-go="tools" type="button"><span data-tr="Tümünü gör" data-en="See all">Tümünü gör</span><svg class="icon"><use href="#i-chevron"/></svg></button></div>
+      <div class="quick-grid" id="quickGrid"></div>
+      <section class="release-card"><div class="release-icon"><svg class="icon"><use href="#i-download"/></svg></div><div class="release-copy"><span class="release-tag" data-tr="SON SÜRÜM" data-en="LATEST RELEASE">SON SÜRÜM</span><h3>TadicTools Reimagined</h3><p data-tr="16+ araç, tek bir hafif masaüstü uygulamasında." data-en="16+ tools in one lightweight desktop app.">16+ araç, tek bir hafif masaüstü uygulamasında.</p></div><button type="button" class="release-button" data-download><span data-tr="İndir" data-en="Get">İndir</span><svg class="icon"><use href="#i-chevron"/></svg></button></section>
+    </section>
+    <section class="tab-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" tabindex="0" hidden>
+      <div class="page-heading"><p class="eyebrow" data-tr="ARAÇ KİTAPLIĞI" data-en="TOOL LIBRARY">ARAÇ KİTAPLIĞI</p><h1 data-tr="Araçlar" data-en="Tools">Araçlar</h1><p data-tr="Günlük işlerini kolaylaştıran 16 kullanışlı araç." data-en="16 useful utilities to make everyday tasks easier.">Günlük işlerini kolaylaştıran 16 kullanışlı araç.</p></div>
+      <label class="search-field"><svg class="icon"><use href="#i-grid"/></svg><input id="toolSearch" type="search" placeholder="Araçlarda ara" aria-label="Search tools"><kbd>⌘ K</kbd></label>
+      <div class="group-label"><span data-tr="TÜM ARAÇLAR" data-en="ALL TOOLS">TÜM ARAÇLAR</span><span id="toolCount">16 araç</span></div><div class="tool-list" id="toolList" role="list"></div>
+    </section>
+    <section class="tab-panel" id="panel-about" role="tabpanel" aria-labelledby="tab-about" tabindex="0" hidden>
+      <div class="page-heading"><p class="eyebrow" data-tr="HAKKINDA" data-en="ABOUT">HAKKINDA</p><h1 data-tr="Az ama öz." data-en="Simple by design.">Az ama öz.</h1><p data-tr="Dijital rutinleri daha kolay hale getirmek için tasarlandı." data-en="Made to make everyday digital routines a little easier.">Dijital rutinleri daha kolay hale getirmek için tasarlandı.</p></div>
+      <article class="about-card"><div class="about-mark"><img src="tadiclogo.png" alt="Tadic Services"></div><h2>TadicTools</h2><p data-tr="TadicTools, günlük bilgisayar kullanımında ihtiyaç duyulan araçları tek bir çatı altında toplar. QR kod ve şifre üreticilerinden sistem bilgisine, yapılacaklar listesinden dosya şifrelemeye kadar pek çok pratik araç sunar. TadicTools Reimagined; Eymorty tarafından geliştirilen, Türk yapımı, reklamsız ve ücretsiz bir Windows araç setidir." data-en="TadicTools brings everyday computer utilities together in one place. From QR and password generators to system information, to-do lists, and file encryption, it offers a practical toolkit for daily use. TadicTools Reimagined is a free, ad-free Windows utility suite created by Eymorty.">TadicTools, günlük bilgisayar kullanımında ihtiyaç duyulan araçları tek bir çatı altında toplar. QR kod ve şifre üreticilerinden sistem bilgisine, yapılacaklar listesinden dosya şifrelemeye kadar pek çok pratik araç sunar. TadicTools Reimagined; Eymorty tarafından geliştirilen, Türk yapımı, reklamsız ve ücretsiz bir Windows araç setidir.</p><p class="about-quote" data-tr="“Basit araçlar. Reklam yok. Gereksiz şey yok.”" data-en="“Simple tools. No ads. No nonsense.”">“Basit araçlar. Reklam yok. Gereksiz şey yok.”</p><div class="about-links"><a href="https://eymorty.itch.io" target="_blank" rel="noreferrer">Itch.io <svg class="icon"><use href="#i-chevron"/></svg></a><a href="https://github.com/ishowdih/Tadic-Tools" target="_blank" rel="noreferrer">GitHub <svg class="icon"><use href="#i-chevron"/></svg></a><a href="code.html">Source code <svg class="icon"><use href="#i-chevron"/></svg></a><a href="TadicTools-Reimagined.zip" download>Download .zip <svg class="icon"><use href="#i-download"/></svg></a><a href="https://github.com/ishowdih/Tadic-Tools/releases/download/reimagined/TadicToolsre.exe">Windows setup <svg class="icon"><use href="#i-download"/></svg></a></div></article>
+    </section>
+  </main>
+  <nav class="tabbar" role="tablist" aria-label="Main navigation"><button class="tab-item active" id="tab-home" role="tab" aria-selected="true" aria-controls="panel-home" data-tab="home"><svg class="icon"><use href="#i-grid"/></svg><span data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</span></button><button class="tab-item" id="tab-tools" role="tab" aria-selected="false" aria-controls="panel-tools" data-tab="tools"><svg class="icon"><use href="#i-wrench"/></svg><span data-tr="Araçlar" data-en="Tools">Araçlar</span></button><button class="tab-item" id="tab-about" role="tab" aria-selected="false" aria-controls="panel-about" data-tab="about"><svg class="icon"><use href="#i-info"/></svg><span data-tr="Hakkında" data-en="About">Hakkında</span></button></nav>
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden></div><section class="detail-sheet" id="detailSheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden><div class="sheet-grabber"></div><button class="sheet-close" id="sheetClose" type="button" aria-label="Close"><span>×</span></button><div class="sheet-icon" id="sheetIcon"></div><p class="eyebrow" data-tr="TADICTOOLS ARACI" data-en="TADICTOOLS UTILITY">TADICTOOLS ARACI</p><h2 id="sheetTitle"></h2><p class="sheet-description" id="sheetDescription"></p><div class="sheet-note" id="sheetNote"><svg class="icon"><use href="#i-spark"/></svg><span data-tr="Bu araç TadicTools Reimagined uygulamasında kullanılabilir." data-en="This utility is available in the TadicTools Reimagined app.">Bu araç TadicTools Reimagined uygulamasında kullanılabilir.</span></div><div class="platform-choices" id="platformChoices">
+    <button class="download-option platform-choice" type="button" data-platform="windows"><span class="download-option-icon"><svg class="icon"><use href="#i-terminal"/></svg></span><span><strong data-tr="Windows sürümü" data-en="Windows version">Windows version</strong><small data-tr="Windows için indir" data-en="Downloads for Windows">Downloads for Windows</small></span><svg class="icon option-arrow"><use href="#i-chevron"/></svg></button>
+    <button class="download-option platform-choice" type="button" data-platform="linux"><span class="download-option-icon"><svg class="icon"><use href="#i-terminal"/></svg></span><span><strong data-tr="Linux sürümü" data-en="Linux version">Linux version</strong><small data-tr="Linux için indir" data-en="Downloads for Linux">Downloads for Linux</small></span><svg class="icon option-arrow"><use href="#i-chevron"/></svg></button>
+  </div>
+  <div class="download-files" id="downloadFiles" hidden><button class="download-back" id="downloadBack" type="button"><svg class="icon"><use href="#i-chevron"/></svg><span data-tr="İşletim sistemini değiştir" data-en="Choose another system">Choose another system</span></button>
+    <div class="download-options" id="windowsDownloads" hidden>
+      <a class="download-option" href="TadicTools-Reimagined.zip" download><span class="download-option-icon"><svg class="icon"><use href="#i-file"/></svg></span><span><strong>Download ZIP</strong><small>Portable archive</small></span><svg class="icon option-arrow"><use href="#i-download"/></svg></a>
+      <a class="download-option" href="https://github.com/ishowdih/Tadic-Tools/releases/download/reimagined/TadicToolsre.exe"><span class="download-option-icon"><svg class="icon"><use href="#i-terminal"/></svg></span><span><strong>Download Windows setup</strong><small>Installer for Windows</small></span><svg class="icon option-arrow"><use href="#i-download"/></svg></a>
+    </div>
+    <div class="download-options" id="linuxDownloads" hidden>
+      <a class="download-option" href="TadicTools-Reimagined.zip" download><span class="download-option-icon"><svg class="icon"><use href="#i-file"/></svg></span><span><strong>Download ZIP</strong><small>Linux package archive</small></span><svg class="icon option-arrow"><use href="#i-download"/></svg></a>
+      <a class="download-option" href="https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/BUILD_APPIMAGE.md" target="_blank" rel="noreferrer"><span class="download-option-icon"><svg class="icon"><use href="#i-info"/></svg></span><span><strong>Build the AppImage</strong><small>Open step-by-step instructions</small></span><svg class="icon option-arrow"><use href="#i-chevron"/></svg></a>
+    </div>
+  </div>
+  <button class="primary-button sheet-download" id="sheetDownloadButton" data-download type="button"><svg class="icon"><use href="#i-download"/></svg><span data-tr="Uygulamayı indir" data-en="Get the app">Uygulamayı indir</span></button></section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+    const tools = [
+      {icon:'clock',tr:'ASCII Saat',en:'ASCII Clock',dt:'Estetik ve canlı bir dijital saat çalıştırın.',de:'Run an aesthetic live digital clock in the terminal.',color:'purple'},
+      {icon:'game',tr:'Oyun Açıcı',en:'Game Launcher',dt:'Özel .exe yollarını kaydedin ve hızlıca başlatın.',de:'Save .exe paths and launch your favorite games instantly.',color:'pink'},
+      {icon:'link',tr:'Web Kısayolları',en:'Web Shortcuts',dt:'Yapay zeka araçlarına ve profillerinize doğrudan erişin.',de:'Quick access to AI tools and developer dashboards.',color:'blue'},
+      {icon:'qr',tr:'QR Kod Oluşturucu',en:'QR Code Generator',dt:'Girdiğiniz her türlü metni QR kod görseline dönüştürün.',de:'Turn any text or link into a scannable QR code image.',color:'orange'},
+      {icon:'lock',tr:'Şifre Oluşturucu',en:'Password Generator',dt:'30 karaktere kadar güçlü ve güvenli şifreler üretin.',de:'Create strong, secure passwords up to 30 characters.',color:'green'},
+      {icon:'bolt',tr:'Ping Durumu',en:'Ping Tester',dt:'Google ve Cloudflare sunucuları üzerinden gecikmenizi test edin.',de:'Test latency instantly using Google and Cloudflare servers.',color:'yellow'},
+      {icon:'clean',tr:'Klasör Temizleyici',en:'Temp Cleaner',dt:'Gereksiz sistem önbelleğini otomatik olarak temizleyin.',de:'Automatically clear unnecessary system cache.',color:'teal'},
+      {icon:'file',tr:'Dosya Şifreleyici',en:'File Encrypter',dt:'Hassas dosyaları güvenle kilitleyin veya geri çözün.',de:'Securely lock or decrypt sensitive files.',color:'blue'},
+      {icon:'clock',tr:'Zamanlayıcı',en:'Timer',dt:'Terminal üzerinden dakika bazlı süreyi anlık takip edin.',de:'Start a live countdown directly in your console.',color:'purple'},
+      {icon:'shield',tr:'Webhook Dedektörü',en:'Webhook Detector',dt:'Dosyaları tarayarak sızdırılmış Discord Webhook’larını bulun.',de:'Scan files for leaked Discord Webhooks.',color:'red'},
+      {icon:'copy',tr:'UUID Oluşturucu',en:'UUID Generator',dt:'Projeleriniz için tamamen benzersiz UUID kodları üretin.',de:'Generate unique UUID identifiers for your projects.',color:'indigo'},
+      {icon:'text',tr:'Metin Ters Çevirici',en:'Text Reverser',dt:'Herhangi bir metni sondan başa doğru tersine sıralayın.',de:'Instantly reverse any text string.',color:'orange'},
+      {icon:'chart',tr:'Karakter Sayıcı',en:'Character Counter',dt:'Metinlerin veya belgelerin toplam karakter hacmini analiz edin.',de:'Analyze character counts in text or documents.',color:'pink'},
+      {icon:'spark',tr:'Banner Oluşturucu',en:'Banner Generator',dt:'Düz metinleri devasa ASCII sanatına dönüştürün.',de:'Convert plain text into large ASCII art.',color:'purple'},
+      {icon:'terminal',tr:'Sistem Bilgisi',en:'System Info',dt:'Fastfetch ile terminal üzerinden donanım bilgilerinizi listeleyin.',de:'List hardware specs via Fastfetch integration.',color:'teal'},
+      {icon:'list',tr:'Yapılacaklar Listesi',en:'To-Do List',dt:'Terminal içinden kendi dijital notlarınızı kaydedin ve yönetin.',de:'Record and manage personal tasks in the terminal.',color:'green'}
+    ];
+    let language='en', activeTab='home', touchStartX=0, toastTimer;
+    const icon=(name)=>`<svg class="icon"><use href="#i-${name}"/></svg>`;
+    const title=(item)=>language==='tr'?item.tr:item.en, description=(item)=>language==='tr'?item.dt:item.de;
+    const quickGrid=document.getElementById('quickGrid'), toolList=document.getElementById('toolList');
+    document.querySelectorAll('[data-tr][data-en]').forEach(el=>el.textContent=el.dataset.en);
+    document.getElementById('toolSearch').placeholder='Search tools';
+    function renderTools(query=''){
+      const filtered=tools.filter(t=>(t.tr+' '+t.en).toLowerCase().includes(query.toLowerCase()));
+      toolList.innerHTML=filtered.map((t)=>`<button class="tool-row" role="listitem" data-tool="${t.tr}"><span class="tool-icon ${t.color}">${icon(t.icon)}</span><span class="tool-row-copy"><strong>${title(t)}</strong><small>${description(t)}</small></span><svg class="icon row-chevron"><use href="#i-chevron"/></svg></button>`).join('');
+      document.getElementById('toolCount').textContent=language==='tr'?`${filtered.length} araç`:`${filtered.length} tools`;
+      toolList.querySelectorAll('[data-tool]').forEach(button=>button.addEventListener('click',()=>showDetail(tools.find(t=>t.tr===button.dataset.tool))));
+    }
+    quickGrid.innerHTML=tools.slice(0,4).map(t=>`<button class="quick-card" data-tool="${t.tr}"><span class="tool-icon ${t.color}">${icon(t.icon)}</span><strong>${title(t)}</strong><small>${description(t)}</small><span class="quick-arrow">${icon('chevron')}</span></button>`).join('');
+    quickGrid.querySelectorAll('[data-tool]').forEach(button=>button.addEventListener('click',()=>showDetail(tools.find(t=>t.tr===button.dataset.tool)))); renderTools();
+    function haptic(){if(navigator.vibrate)navigator.vibrate(8)}
+    function changeTab(tab,focus=false){if(!document.getElementById(`panel-${tab}`))return;activeTab=tab;document.querySelectorAll('.tab-item').forEach(b=>{const selected=b.dataset.tab===tab;b.classList.toggle('active',selected);b.setAttribute('aria-selected',selected)});document.querySelectorAll('.tab-panel').forEach(p=>{const selected=p.id===`panel-${tab}`;p.classList.toggle('active',selected);p.hidden=!selected});if(focus)document.getElementById(`panel-${tab}`).focus({preventScroll:true});window.scrollTo({top:0,behavior:'smooth'});haptic()}
+    document.querySelectorAll('.tab-item').forEach(b=>b.addEventListener('click',()=>changeTab(b.dataset.tab)));
+    document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>changeTab(b.dataset.go)));
+    document.getElementById('toolSearch').addEventListener('input',e=>renderTools(e.target.value));
+    const sheet=document.getElementById('detailSheet'), backdrop=document.getElementById('sheetBackdrop');
+    function showDetail(item){if(!item)return;document.querySelector('#detailSheet .eyebrow').textContent=language==='tr'?'TADICTOOLS ARACI':'TADICTOOLS UTILITY';document.getElementById('sheetIcon').hidden=false;document.getElementById('sheetNote').hidden=false;document.getElementById('platformChoices').hidden=true;document.getElementById('downloadFiles').hidden=true;document.getElementById('windowsDownloads').hidden=true;document.getElementById('linuxDownloads').hidden=true;document.getElementById('sheetDownloadButton').hidden=false;document.getElementById('sheetIcon').className=`sheet-icon tool-icon ${item.color}`;document.getElementById('sheetIcon').innerHTML=icon(item.icon);document.getElementById('sheetTitle').textContent=title(item);document.getElementById('sheetDescription').textContent=description(item);sheet.hidden=false;backdrop.hidden=false;requestAnimationFrame(()=>{sheet.classList.add('presented');backdrop.classList.add('visible')});document.body.classList.add('sheet-open');haptic();document.getElementById('sheetClose').focus()}
+    function showDownloadOptions(){
+      document.getElementById('sheetIcon').hidden=true;
+      document.getElementById('sheetNote').hidden=true;
+      document.getElementById('sheetDownloadButton').hidden=true;
+      document.getElementById('platformChoices').hidden=false;
+      document.getElementById('downloadFiles').hidden=true;
+      document.getElementById('windowsDownloads').hidden=true;
+      document.getElementById('linuxDownloads').hidden=true;
+      document.querySelector('#detailSheet .eyebrow').textContent='TADICTOOLS REIMAGINED';
+      document.getElementById('sheetTitle').textContent=language==='tr'?'Uygulamayı edin':'Get the app';
+      document.getElementById('sheetDescription').textContent=language==='tr'?'Windows veya Linux sürümünü seçin.':'Choose a Windows or Linux version.';
+      sheet.hidden=false;backdrop.hidden=false;
+      requestAnimationFrame(()=>{sheet.classList.add('presented');backdrop.classList.add('visible')});
+      document.body.classList.add('sheet-open');haptic();document.querySelector('[data-platform]').focus();
+    }
+    function selectPlatform(platform){
+      document.getElementById('platformChoices').hidden=true;
+      document.getElementById('downloadFiles').hidden=false;
+      document.getElementById('windowsDownloads').hidden=platform!=='windows';
+      document.getElementById('linuxDownloads').hidden=platform!=='linux';
+      document.getElementById('sheetTitle').textContent=platform==='windows'?(language==='tr'?'Windows sürümü':'Windows version'):(language==='tr'?'Linux sürümü':'Linux version');
+      document.getElementById('sheetDescription').textContent=language==='tr'?'İndirmek istediğiniz dosyayı seçin.':'Choose a file to download.';
+      haptic();document.querySelector(`#${platform}Downloads .download-option`).focus();
+    }
+    function showPlatformChoices(){
+      document.getElementById('platformChoices').hidden=false;
+      document.getElementById('downloadFiles').hidden=true;
+      document.getElementById('sheetTitle').textContent=language==='tr'?'Uygulamayı edin':'Get the app';
+      document.getElementById('sheetDescription').textContent=language==='tr'?'Windows veya Linux sürümünü seçin.':'Choose a Windows or Linux version.';
+      document.querySelector('[data-platform]').focus();
+    }
+    function closeSheet(){sheet.classList.remove('presented');backdrop.classList.remove('visible');document.body.classList.remove('sheet-open');setTimeout(()=>{sheet.hidden=true;backdrop.hidden=true},260)}
+    document.getElementById('sheetClose').addEventListener('click',closeSheet);backdrop.addEventListener('click',closeSheet);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)closeSheet();if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();changeTab('tools');document.getElementById('toolSearch').focus()}});
+    document.querySelectorAll('[data-download]').forEach(b=>b.addEventListener('click',showDownloadOptions));
+    document.querySelectorAll('[data-platform]').forEach(button=>button.addEventListener('click',()=>selectPlatform(button.dataset.platform)));
+    document.getElementById('downloadBack').addEventListener('click',showPlatformChoices);
+    function showToast(message){const toast=document.getElementById('toast');toast.textContent=message;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200)}
+    document.getElementById('languageButton').addEventListener('click',()=>{language=language==='tr'?'en':'tr';document.documentElement.lang=language;document.getElementById('languageButton').textContent=language.toUpperCase();document.querySelectorAll('[data-tr][data-en]').forEach(el=>el.textContent=el.dataset[language]);document.getElementById('toolSearch').placeholder=language==='tr'?'Araçlarda ara':'Search tools';renderTools(document.getElementById('toolSearch').value);quickGrid.innerHTML=tools.slice(0,4).map(t=>`<button class="quick-card" data-tool="${t.tr}"><span class="tool-icon ${t.color}">${icon(t.icon)}</span><strong>${title(t)}</strong><small>${description(t)}</small><span class="quick-arrow">${icon('chevron')}</span></button>`).join('');quickGrid.querySelectorAll('[data-tool]').forEach(button=>button.addEventListener('click',()=>showDetail(tools.find(t=>t.tr===button.dataset.tool))));haptic()});
+    document.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX},{passive:true});document.addEventListener('touchend',e=>{const dx=e.changedTouches[0].screenX-touchStartX;if(Math.abs(dx)<90||!sheet.hidden)return;const tabs=['home','tools','about'],i=tabs.indexOf(activeTab);if(dx<0&&i<tabs.length-1)changeTab(tabs[i+1]);if(dx>0&&i>0)changeTab(tabs[i-1])},{passive:true});
+  </script>
+  <script>
+    let sheetTouchY=0;
+    document.getElementById("detailSheet").addEventListener("touchstart",event=>{sheetTouchY=event.changedTouches[0].screenY},{passive:true});
+    document.getElementById("detailSheet").addEventListener("touchend",event=>{if(event.changedTouches[0].screenY-sheetTouchY>110)document.getElementById("sheetClose").click()},{passive:true});
+    document.addEventListener("keydown",event=>{if(event.key!=="Tab"||document.getElementById("detailSheet").hidden)return;const items=[...document.getElementById("detailSheet").querySelectorAll("button,a[href]")].filter(item=>!item.disabled);const first=items[0],last=items[items.length-1];if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}});
+  </script>
+</body>
+</html>
+
+
+
+
+
