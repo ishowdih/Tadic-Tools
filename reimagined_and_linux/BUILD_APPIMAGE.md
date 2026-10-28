@@ -1,6 +1,6 @@
 # Build the Linux AppImage
 
-This repository does not contain a built `tadictools.AppImage` yet. The AppImage toolchain is Linux-only; this build host is Windows and WSL is unavailable here. Follow these steps on an x86_64 Linux machine (Arch Linux is recommended because the app's optional TTY-Clock and Fastfetch installers use `pacman`).
+This repository does not contain a built `tadictools.AppImage` yet. The AppImage toolchain is Linux-only; Follow these steps on an x86_64 Linux machine (Arch Linux is recommended because the app's optional TTY-Clock and Fastfetch installers use `pacman`).
 
 ## 1. Install Python and pip
 
