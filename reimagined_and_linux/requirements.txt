@@ -1,6 +1,6 @@
 pyfiglet
 pywin32
 qrcode[pil]
-clearer
-boldy
+clearertadic
+boldytadic
 getpass
