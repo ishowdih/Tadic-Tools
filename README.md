@@ -68,9 +68,10 @@ This guide is step-by-step and the easiest one, its literally only 3 commands, a
   ```
   git clone https://github.com/ishowdih/Tadic-Tools
   cd Tadic-Tools/reimagined_and_linux/linux_aur_files
-  makepgs -si
+  makepkg -si
   ```
   with that commands, you will install TadicTools.
+  
 - Step 2.
   Run TadicTools:
   ```
