@@ -23,7 +23,7 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 
 
 ## Downloads
-
+- Powershell command: `irm https://raw.githubusercontent.com/ishowdih/Tadic-Tools/main/install.ps1 | iex`
 - Published builds are available from the GitHub repo.
 - The website is https://tadictools.pages.dev .
 - [`TadicTools-Reimagined.py`](https://github.com/ishowdih/Tadic-Tools/blob/main/reimagined_and_linux/TadicTools-Reimagined.py) is the Windows source.
@@ -38,6 +38,10 @@ The Windows source imports `pyfiglet`, `qrcode`, `pywin32`, and the `clearer` an
 ```powershell
 pip install -r requirements.txt
 python TadicTools-Reimagined.py
+```
+Or you can just download it on powershell:
+```powershell
+irm https://raw.githubusercontent.com/ishowdih/Tadic-Tools/main/install.ps1 | iex
 ```
 
 The prebuilt Windows installer is linked from the [website](https://tadictools.pages.dev).
