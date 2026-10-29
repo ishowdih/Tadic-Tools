@@ -35,12 +35,12 @@ TadicTools/TadicTools Reimagined is a terminal-based toolkit by Eymorty. The rep
 
 The Windows source imports `pyfiglet`, `qrcode`, `pywin32`, and the `clearer` and `boldy` helper modules. Install the Python packages and make sure the helper modules are available on Python's import path, then run:
 
-```CMD
+```powershell
 pip install -r requirements.txt
 python TadicTools-Reimagined.py
 ```
 
-The prebuilt Windows installer is linked from the website.
+The prebuilt Windows installer is linked from the [website](https://tadictools.pages.dev).
 
 ## Run on Linux
 
@@ -91,12 +91,3 @@ This guide is step-by-step and the easiest one, its literally only 3 commands, a
 - [GitHub repository](https://github.com/ishowdih/Tadic-Tools)
 - [Itch.io](https://eymorty.itch.io)
 - [Tadic Tools Website](https://tadictools.pages.dev)
-
-> QUICK NOTE FOR THE REPO (**READ THIS**): The requirements.txt, Linux_version.py and TadicTools-Reimagined.py is on the [folder reimagined_and_linux](https://github.com/ishowdih/Tadic-Tools/tree/main/reimagined_and_linux)
-
-
-> Note 2: The project (TadicTools-Reimagined itself and other TadicTools versions) are made by a human. The website is made by Codex.
-> The "NO AI WAS USED..." is for python scripts & other that are not in the website files.
-
-
-**NO AI WAS USED ON THIS PROJECT. EVERY LINE IS WRITTEN BY A HUMAN.**
