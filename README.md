@@ -95,3 +95,4 @@ This guide is step-by-step and the easiest one, its literally only 3 commands, a
 - [GitHub repository](https://github.com/ishowdih/Tadic-Tools)
 - [Itch.io](https://eymorty.itch.io)
 - [Tadic Tools Website](https://tadictools.pages.dev)
+---
